@@ -8,6 +8,7 @@
                         .container {
                             position: relative;
                             overflow: hidden;
+                            scroll-snap-type: y mandatory;
                         }
                         
                         .responsive-link {
@@ -143,6 +144,7 @@
                             /* grid-auto-rows: minmax(100px, auto); */
                             grid-gap: 1.5px;
                             height: 600px;
+                            scroll-snap-align: start;
                         }
                         
                         .pic1title {
@@ -193,6 +195,7 @@
                             grid-template-columns: 3fr 2fr;
                             grid-gap: 1px;
                             height: 500px;
+                            scroll-snap-align: start;
                         }
                         
                         .pic-3 {
@@ -210,6 +213,7 @@
                             grid-template-columns: repeat(2, 1fr);
                             grid-gap: 1px;
                             height: 600px;
+                            scroll-snap-align: start;
                         }
                         
                         .pic-4 {
@@ -244,6 +248,7 @@
                             justify-content: center;
                             align-items: center;
                             display: flex;
+                            scroll-snap-align: start;
                         }
                         
                         .bottom-menu {
