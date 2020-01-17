@@ -27,20 +27,6 @@ TweenMax.from(".pic2title", 0.95, {
     ease: Expo.easeIn
 })
 
-// ---------------------------------
 
-// TweenMax.from(".pic-3", 1, {
-//     delay: 1.2,
-//     x: 10,
-//     opacity: 0,
-//     ease: Expo.easeInOut
-// })
-
-// TweenMax.from(".pic-4", 1, {
-//     delay: 1.3,
-//     y: -10,
-//     opacity: 0,
-//     ease: Expo.easeInOut
-// })
 
 new WOW().init();
