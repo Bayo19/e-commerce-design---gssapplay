@@ -43,6 +43,8 @@
                         .logo h2 {
                             cursor: pointer;
                             font-family: 'Abril Fatface', cursive;
+                            position: relative;
+                            top: -3.7px;
                         }
                         
                         .logo a {
@@ -148,26 +150,32 @@
                         
                         .pic1title {
                             font-size: 89%;
+                            letter-spacing: 1.5px;
                         }
                         
                         .pic2title {
                             font-size: 89%;
+                            letter-spacing: 1.5px;
                         }
                         
                         .pic3title {
                             font-size: 89%;
+                            letter-spacing: 1.5px;
                         }
                         
                         .pic4title {
                             font-size: 89%;
+                            letter-spacing: 1.5px;
                         }
                         
                         .pic5title {
                             font-size: 89%;
+                            letter-spacing: 1.5px;
                         }
                         
                         .pic6title {
                             font-size: 89%;
+                            letter-spacing: 1.5px;
                         }
                         
                         .pic-1 {
@@ -453,17 +461,17 @@
                             font-size: 28px;
                         }
                         
-                        i {
+                        .oi {
                             padding: 15px 15px 0 15px;
                             cursor: pointer;
-                            color: #313168;
+                            color: rgb(4, 30, 58);
                         }
                         
                         .dynamic-info {
                             display: flex;
                             justify-content: center;
                             padding: 20px;
-                            border-bottom: .7px solid #6868b9;
+                            border-bottom: .7px solid rgb(4, 30, 58);
                         }
                         
                         .dynamic-info-p:hover {
@@ -471,7 +479,7 @@
                         }
                         
                         .dynamic-info-p a {
-                            color: black;
+                            color: rgb(4, 30, 58);
                             text-transform: uppercase;
                             font-size: 80%;
                         }
@@ -483,6 +491,7 @@
                             text-transform: uppercase;
                             padding: 20px;
                             font-size: 80%;
+                            color: rgb(4, 30, 58);
                         }
                         /* S9/S9 + Android 7.0 */
                         
