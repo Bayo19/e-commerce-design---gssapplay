@@ -446,6 +446,44 @@
                             display: flex;
                             flex-direction: row;
                         }
+                        
+                        .small-footer {
+                            display: flex;
+                            justify-content: center;
+                            font-size: 28px;
+                        }
+                        
+                        i {
+                            padding: 15px 15px 0 15px;
+                            cursor: pointer;
+                            color: #313168;
+                        }
+                        
+                        .dynamic-info {
+                            display: flex;
+                            justify-content: center;
+                            padding: 20px;
+                            border-bottom: .7px solid #6868b9;
+                        }
+                        
+                        .dynamic-info-p:hover {
+                            text-decoration: underline;
+                        }
+                        
+                        .dynamic-info-p a {
+                            color: black;
+                            text-transform: uppercase;
+                            font-size: 80%;
+                        }
+                        
+                        .underfoot {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-transform: uppercase;
+                            padding: 20px;
+                            font-size: 80%;
+                        }
                         /* S9/S9 + Android 7.0 */
                         
                         @media screen and (max-width: 361px) {

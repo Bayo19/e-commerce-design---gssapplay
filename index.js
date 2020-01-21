@@ -27,6 +27,28 @@ TweenMax.from(".pic2title", 0.95, {
     ease: Expo.easeIn
 })
 
+let dynamic = document.querySelector('.dynamic-info-p');
+let twitter = document.querySelector('.fa-twitter-square');
+let facebook = document.querySelector('.fa-facebook-square');
+let youtube = document.querySelector('.fa-youtube-square');
+let insta = document.querySelector('.fa-instagram');
+
+twitter.addEventListener('mouseover', function() {
+    dynamic.innerHTML = '<a href="#">Yoshi Twitter</a>';
+});
+
+facebook.addEventListener('mouseover', function() {
+    dynamic.innerHTML = '<a href="#">Yoshi Facebook</a>';
+});
+youtube.addEventListener('mouseover', function() {
+    dynamic.innerHTML = '<a href="#">Yoshi Youtube</a>';
+});
+
+insta.addEventListener('mouseover', function() {
+    dynamic.innerHTML = '<a href="#">Yoshi Instagram</a>';
+});
+
+
 
 
 new WOW().init();
