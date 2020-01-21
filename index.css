@@ -2,13 +2,13 @@
                             margin: 0;
                             padding: 0;
                             text-decoration: none;
-                            font-family: 'Overpass', sans-serif;
                         }
                         /* Desktop */
                         
                         .container {
                             position: relative;
                             overflow: hidden;
+                            font-family: 'Josefin Sans', sans-serif;
                         }
                         
                         .responsive-link {
@@ -42,6 +42,7 @@
                         
                         .logo h2 {
                             cursor: pointer;
+                            font-family: 'Abril Fatface', cursive;
                         }
                         
                         .logo a {
@@ -338,10 +339,35 @@
                         .fifth,
                         .sixth {
                             width: 340px;
-                            text-align: center;
+                            /* text-align: center; */
                             text-transform: uppercase;
                             font-size: 90%;
                             cursor: pointer;
+                            position: relative;
+                        }
+                        
+                        .fourth p,
+                        .fifth p,
+                        .sixth p {
+                            text-align: center;
+                            width: auto;
+                            line-height: 1.9;
+                            /* text-decoration: underline; */
+                        }
+                        
+                        .fourth p::before,
+                        .fifth p::before,
+                        .sixth p::before {
+                            content: "";
+                            position: absolute;
+                            bottom: 70px;
+                            width: 83px;
+                            height: 2px;
+                            margin: 5px 0 0;
+                            /* transition: all 0.2s ease-in-out;
+                            transition-duration: 0.35s;
+                            opacity: 1; */
+                            background-color: #000;
                         }
                         
                         .explore {
@@ -364,23 +390,61 @@
                         .megafooter {
                             border-top-width: thin;
                             /* border-top: 0.8px solid grey; */
-                            padding: 5% 10%;
+                            padding: 2.5% 2%;
                             left: 0;
                             max-width: 100%;
                             width: 100vw;
                             display: grid;
-                            grid-template-columns: repeat(3, 1fr);
+                            grid-template-columns: repeat(4, 1fr);
                             background: rgba(107, 138, 184, 0.17);
+                            box-sizing: border-box;
                         }
                         
                         .megafooter li {
                             display: flex;
                             flex-direction: column;
                             color: #000;
+                            padding: 15px;
+                            box-sizing: border-box;
                         }
                         
                         .megafooter li a {
                             color: #000;
+                        }
+                        
+                        .mf-last {
+                            display: flex;
+                            flex-direction: column;
+                            box-sizing: border-box;
+                        }
+                        
+                        .mf-1 {
+                            padding-bottom: 15px;
+                        }
+                        
+                        .mf-2 {
+                            font-size: 14px;
+                            width: 170px;
+                            padding: 15px;
+                        }
+                        
+                        .mf-2-2 {
+                            width: 100px;
+                            border: none;
+                            background: rgb(4, 30, 58);
+                            color: #fff;
+                        }
+                        
+                        .mf-mid {
+                            padding: 20px 0;
+                            width: 100%;
+                            box-sizing: border-box;
+                            /* height: 100px; */
+                        }
+                        
+                        .mf-mid {
+                            display: flex;
+                            flex-direction: row;
                         }
                         /* S9/S9 + Android 7.0 */
                         
@@ -595,7 +659,7 @@
                                 padding: 5%;
                                 left: 0;
                                 display: grid;
-                                grid-template-columns: repeat(3, 1fr);
+                                grid-template-columns: repeat(2, 1fr);
                                 grid-gap: 5px;
                                 box-sizing: border-box;
                             }
@@ -680,8 +744,12 @@
                                 padding: 5%;
                                 left: 0;
                                 display: grid;
-                                grid-template-columns: repeat(3, 1fr);
+                                grid-template-columns: repeat(1, 1fr);
                                 grid-gap: 5px;
+                                box-sizing: border-box;
+                            }
+                            .megafooter li {
+                                border-bottom: 1px solid #000;
                                 box-sizing: border-box;
                             }
                         }
@@ -696,5 +764,22 @@
                                 height: 400px;
                                 /* margin-top: 1px; */
                                 min-width: 100%;
+                            }
+                            .megafooter {
+                                /* border-top-width: thin;
+                                border-top: 0.8px solid grey; */
+                                padding: 5%;
+                                left: 0;
+                                display: grid;
+                                grid-template-columns: repeat(1, 1fr);
+                                grid-gap: 5px;
+                                box-sizing: border-box;
+                            }
+                            .megafooter li {
+                                border-bottom: 1px solid #000;
+                                box-sizing: border-box;
+                            }
+                            .megafooter li:last-child {
+                                border: none;
                             }
                         }
